@@ -1,0 +1,161 @@
+/* reset some basic elements for better consistency */
+html {
+    background-color: #373738;
+    color: white
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* navbar */
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.navigation {
+    background-color: #373738;
+    padding: 10px 0;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+    
+}
+
+nav {
+    width: 73%;
+    padding: 1%;
+}
+
+nav ul {
+    width: 50%;
+    margin-left: auto;
+}
+
+nav  ul li{
+    padding: 10px;;
+}
+
+/* hero image */
+.heroImg {
+    height: 600px;
+    padding: 25px;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.heroImg img{
+    margin: 20px 0;
+}
+
+.heroImg button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #f499c0;
+    color: #000000;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+/* footer */
+footer {
+    background-color: #373738;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer ul {
+    display: inline-block;
+    padding: 0;
+    vertical-align: top;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+    color: #fff;
+}
+
+/* challenge 18 css starts here*/
+
+.mySkills, .myWork {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.mySkills h1, .myWork h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* flexbox styles for skills section */
+.flexContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexContainer > div {
+    width: 30%;
+    text-align: center;
+}
+
+.flexContainer img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+/* grid styles for work section */
+.workGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+}
+
+.workGrid > div {
+    text-align: center;
+}
+
+.workGrid img {
+    max-width: 100%;
+}
+
+.myWork h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* mobile media query */
+@media (max-width: 600px) {
+    .flexContainer {
+        flex-direction: column;
+    }
+
+    .flexContainer > div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .workGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .workGrid > div {
+        margin-bottom: 20px;
+    }
+}
