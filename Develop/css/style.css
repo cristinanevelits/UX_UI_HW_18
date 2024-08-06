@@ -60,6 +60,7 @@ nav  ul li{
     color: #000000;
     cursor: pointer;
     margin: 20px 0;
+    border-radius: 2%;
 }
 
 /* footer */
@@ -160,10 +161,21 @@ footer ul li {
 button {
     cursor: pointer;
     margin: 10px;
+    background-color: #f499c0;
+    color: #000000;
+    margin: 20px 0;
+    border-radius: 2%;
+    border: none;
+    padding: 10px 20px;
+}
+
+button:hover {
+    background-color: #ffbdda;
+    color: #000000;
 }
 
 .myLogo{
-    width: 150%;
+    width: 100%;
 }
 
 .myPhoto{
@@ -185,5 +197,24 @@ button {
 }
 
 .skill1{
-    width: 300px;
+    width: 200%;
+}
+
+li{
+    cursor: pointer;
+    color: rgb(208, 255, 170);
+    text-decoration: underline;
+}
+
+li:hover{
+    color: rgb(245, 255, 237);
+}
+
+h3{
+    color: rgb(208, 255, 170);
+}
+
+h4{
+    color: #f499c0;
+    margin: 10px;
 }
