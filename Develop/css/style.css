@@ -1,6 +1,6 @@
 /* reset some basic elements for better consistency */
 html {
-    background-color: #373738;
+    background-color: #1d1d1d;
     color: white
 }
 
@@ -21,7 +21,7 @@ body {
 }
 
 .navigation {
-    background-color: #373738;
+    background-color: #1d1d1d;
     padding: 10px 0;
 }
 
@@ -47,18 +47,10 @@ nav  ul li{
 }
 
 /* hero image */
-.heroImg {
-    height: 400px;
-    padding: 25px;
-}
 
 .content {
     width: 500px;
     margin: 0 auto;
-}
-
-.heroImg img{
-    margin: 20px 0;
 }
 
 .heroImg button {
@@ -72,7 +64,7 @@ nav  ul li{
 
 /* footer */
 footer {
-    background-color: #373738;
+    background-color: #1d1d1d;
     padding: 20px 0;
     text-align: center;
     margin: 50px 0;
@@ -161,7 +153,30 @@ footer ul li {
     }
 }
 
+.mySkills {
+    margin: 20px;
+}
+
 button {
     cursor: pointer;
     margin: 10px;
 }
+
+.myLogo{
+    width: 150%;
+}
+
+.myPhoto{
+    width: 30%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.project1{
+    width: 80%;
+}
+
+.project2{
+    width: 80%;
+}
+
